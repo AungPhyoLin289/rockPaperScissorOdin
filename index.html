@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/maybe-but-not-always');
+        @import url('https://fonts.cdnfonts.com/css/tesla-2');
+        @import url('https://fonts.cdnfonts.com/css/robl0x-logo');
+        @import url('https://fonts.cdnfonts.com/css/le-cirque');
+        @import url('https://fonts.cdnfonts.com/css/merry-land-2');
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="icon" type="image/x-icon" href="file/icon.png">
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+
+    <div id = "title">
+        <h2>Welcome To</h3>
+        <h1>Rock-✊-Paper-👋-Scissor-🤞-Game</h1>
+    </div>
+
+    <div id = "description">
+        <p class = "dspt">Choose your weapon against <span>ROBOTS🤖</span></p>
+        <p class = "gamePolicy">The first to win the total five deadly battle survives!</p>
+    </div>
+
+    <div id = "scoreTracking">
+      <div id = "playerTracking">
+          <p id = "player"> <u>Player</u> </p>
+          <p id="playerWeapon" class = "weapon">?</p>
+          <p id = "playerScore" class = "score">0</p>
+      </div>
+      <div id = "robotTracking">
+        <p id = "robot"> <u>Robot</u> </p>
+        <p id="robotWeapon" class = "weapon">?</p>
+        <p id = "robotScore" class = "score">0</p>
+    </div>
+    </div>
+    <div class = "selections">
+        <button id = "button1" class = "selection" data-selection = "rock">🪨</button>
+        <button id = "button2" class = "selection" data-selection = "paper">📄</button>
+        <button id = "button3" class = "selection" data-selection = "scissor">✂️</button>
+    </div>
+    <div id = "footer">
+        <p><img src="File/github.png" alt="github"> Copyright © 2022 @AungPhyoLin289</p>
+    </div>
+
+    <script type="text/javascript" src="rpc.js"></script>
+</body>
+</html>
